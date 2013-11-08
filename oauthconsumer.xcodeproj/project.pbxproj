@@ -357,6 +357,7 @@
 				GCC_PREFIX_HEADER = "oauthconsumer-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				VALID_ARCHS = "armv7 i386 x86_64 armv7s arm64";
 			};
 			name = Debug;
@@ -370,6 +371,7 @@
 				GCC_PREFIX_HEADER = "oauthconsumer-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				VALID_ARCHS = "armv7 i386 x86_64 armv7s arm64";
 			};
 			name = Release;
